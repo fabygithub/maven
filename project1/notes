@@ -1,0 +1,55 @@
+1. Using Maven with the Eclipse IDE
+Create a new Maven project via File  New  Other…​  Maven  Maven Project.
+Press next, filter for the "maven-archetype-quickstart" archetype and select the entry with the apache group.
+maven-archetype-quickstar
+1.4
+Right-click your project and select Maven  Update Project and update your project.
+3.4. Validate
+Validate that the Maven build is correctly configured by running the build. 
+For this right-click the pom.xml file and select Run As  Maven build.
+The Eclipse Maven tooling makes adding dependencies to the classpath of your project simple. 
+
+
+el pom editor se abre abajo
+Switch to the Dependencies tab and press the Add button.
+
+com.google.code.gson
+gson
+2.8.6
+
+Change or create the App.java class in your src/main/java folder. 
+Create a new Java project called com.vogella.build.maven.simple in Eclipse.
+com.vogella.build.maven.simple 
+
+maven-archetype-webapp
+index.jsp and choose the "Run As > Run on Server" option.
+
+Crear un nuevo archivo en la carpeta WebContent test.jsp. 
+En la siguiente figura se puede ver en el código por defecto:
+
+Eclipse entorno JSP / servlet para construir
+spring framework eclipse
+
+https://www.javatpoint.com/example-of-spring-application-in-eclipse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
